@@ -4,7 +4,7 @@ import Dropdown from './uiElements/Dropdown'
 export default function Home() {
   return (
     <main className='p-10'>
-      <Dropdown title='Dropdown' onHover>
+      <Dropdown trigger={<button>Dropdown</button>} onHover>
         <div>Hello</div>
         <div>Hey</div>
       </Dropdown>
